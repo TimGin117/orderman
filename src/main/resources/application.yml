@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/orderman?serverTimezone=Asia/Shanghai
     username: root
-    password: 744673725
+    password: 
   jpa:
     hibernate:
       ddl-auto: update  #每次启动自动更新，没有表会创建新表，表内数据不会清空，只会更新
